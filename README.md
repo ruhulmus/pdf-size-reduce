@@ -1,3 +1,5 @@
 ## Shrinkpdf
 
-Reduce size of PDF (compress) using Ghostscript at terminal.
+PDF Size Reduce(compress) using Ghostscript at terminal.
+
+ 
