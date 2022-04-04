@@ -20,8 +20,11 @@ Here required 2 things for the process.
 ***For Linux : ***
 
 RedHat and derivatives :
+
 `sudo yum install ghostscript`
+
 Or on Debian:
+
 `sudo apt-get install ghostscript`
 
 
@@ -34,7 +37,7 @@ To reduce your pdf file you need to pass 3 parameters
 
 1. [inputfile] : Actual Filename of the PDF that is to be converted
 2. [outputfile] : New filename of the converted PDF
-2. [resolution_in_dpi] : The DPI (resolution) for the output PDF. 
+3. [resolution_in_dpi] : The DPI (resolution) for the output PDF. 
 Output resolution defaults is : 72 . You can use your own choice like 150 dpi , 150 dpi etc.
 
 N.B: Lower DPI is better but the quality will be worse
