@@ -49,11 +49,22 @@ Now your `shrinkpdf.sh` file is executable.
 
 ***Step 2 :  ***
 
-So now you can execute the the `shrinkpdf.sh`
+Now you can execute the the `shrinkpdf.sh`
 
 `sudo ./shrinkpdf.sh sample-pdf.pdf output.pdf 150`
 
+It will create a new file name `output.pdf` with 150dpi in same directory.
 
-More Detials :
+you can check the file size by below command.
+
+``cmd
+$ du -sh *
+4.0K    README.md
+124K    output.pdf
+460K    sample-pdf.pdf
+4.0K    shrinkpdf.sh
+``
+
+### More Detials :
 
 http://www.alfredklomp.com/programming/shrinkpdf/
