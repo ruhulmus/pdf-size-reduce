@@ -13,11 +13,12 @@ Here required 2 things for the process.
 
 2. Install `Ghostscript` in your machine if not installed
 
-***For Mac : ***
+***For Mac :***
 
-`sudo brew install ghostscript`
-
-***For Linux : ***
+```cmd
+$ sudo brew install ghostscript
+```
+***For Linux :***
 
 RedHat and derivatives :
 
