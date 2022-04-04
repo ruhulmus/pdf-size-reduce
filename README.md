@@ -9,7 +9,7 @@ Here required 2 things for the process.
 
 ### Setup
 
-1. Download the shrinkpdf.sh file from ![Here](http://www.alfredklomp.com/programming/shrinkpdf/shrinkpdf.sh)
+1. Download the shrinkpdf.sh file from [Here](http://www.alfredklomp.com/programming/shrinkpdf/shrinkpdf.sh)
 
 2. Install `Ghostscript` in your machine if not installed
 
