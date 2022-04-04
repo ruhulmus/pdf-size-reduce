@@ -1,9 +1,10 @@
-## Shrinkpdf
+## PDF Size Reduce/compress using Ghostscript
+
 
 PDF Size Reduce(compress) using Ghostscript at terminal. 
 Here required 2 things for the process.
 
-1. shrinkpdf.sh file
+1. `shrinkpdf.sh` file
 2. Installed `Ghostscript` in your machine
 
 ### Setup
@@ -13,6 +14,7 @@ Here required 2 things for the process.
 2. Install `Ghostscript` in your machine if not installed
 
 ***For Mac : ***
+
 `sudo brew install ghostscript`
 
 ***For Linux : ***
