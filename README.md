@@ -8,12 +8,12 @@ Here required 2 things for the process.
 
 ### Setup
 
-Download the shrinkpdf.sh file from ![Here](http://www.alfredklomp.com/programming/shrinkpdf/shrinkpdf.sh)
+1. Download the shrinkpdf.sh file from ![Here](http://www.alfredklomp.com/programming/shrinkpdf/shrinkpdf.sh)
 
-Install `Ghostscript` in your machine if not installed
+2. Install `Ghostscript` in your machine if not installed
 
 ***For Mac : ***
-`brew install ghostscript`
+`sudo brew install ghostscript`
 
 ***For Linux : ***
 
@@ -23,11 +23,37 @@ Or on Debian:
 `sudo apt-get install ghostscript`
 
 
+### Process
 
-### Execution Process
 
- Make the `shrinkpdf.sh` file executable and give it permissions to execute by  bellow command
+To reduce your pdf file you need to pass 3 parameters
+
+./shrinkpdf.sh [inputfile] [outputfile] [resolution_in_dpi]
+
+1. [inputfile] : Actual Filename of the PDF that is to be converted
+2. [outputfile] : New filename of the converted PDF
+2. [resolution_in_dpi] : The DPI (resolution) for the output PDF. 
+Output resolution defaults is : 72 . You can use your own choice like 150 dpi , 150 dpi etc.
+
+N.B: Lower DPI is better but the quality will be worse
+
+### Execute and Reduce PDF
+
+***Step 1 :  ***
+
+Make the `shrinkpdf.sh` file executable and give it permissions to execute by  bellow command
 
   ``sudo chmod +x shrinkpdf.sh``
 
-So now you can
+Now your `shrinkpdf.sh` file is executable.
+
+***Step 2 :  ***
+
+filename of the PDF that is to be converted
+So now you can execute the the shrinkpdf.sh
+
+
+
+More Detials :
+
+http://www.alfredklomp.com/programming/shrinkpdf/
