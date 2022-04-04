@@ -21,12 +21,15 @@ Here required 2 things for the process.
 
 RedHat and derivatives :
 
-`sudo yum install ghostscript`
+```cmd
+$ sudo yum install ghostscript
+```
 
 Or on Debian:
 
-`sudo apt-get install ghostscript`
-
+```cmd
+$ sudo apt-get install ghostscript
+```
 
 ### Process
 
@@ -43,31 +46,35 @@ N.B: Lower DPI is better but the quality will be worse
 
 ### Execute and Reduce PDF
 
-***Step 1 :  ***
+**Step 1 :**
 
 Make the `shrinkpdf.sh` file executable and give it permissions to execute by  bellow command
 
-  ``sudo chmod +x shrinkpdf.sh``
+```cmd
+$ sudo chmod +x shrinkpdf.sh
+```
 
 Now your `shrinkpdf.sh` file is executable.
 
-***Step 2 :  ***
+**Step 2 :***
 
 Now you can execute the the `shrinkpdf.sh`
 
-`sudo ./shrinkpdf.sh sample-pdf.pdf output.pdf 150`
+```cmd
+$ sudo ./shrinkpdf.sh sample-pdf.pdf output.pdf 150
+```
 
 It will create a new file name `output.pdf` with 150dpi in same directory.
 
 you can check the file size by below command.
 
-``cmd
+```cmd
 $ du -sh *
 4.0K    README.md
 124K    output.pdf
 460K    sample-pdf.pdf
 4.0K    shrinkpdf.sh
-``
+```
 
 ### More Detials :
 
