@@ -49,9 +49,9 @@ Now your `shrinkpdf.sh` file is executable.
 
 ***Step 2 :  ***
 
-filename of the PDF that is to be converted
-So now you can execute the the shrinkpdf.sh
+So now you can execute the the `shrinkpdf.sh`
 
+`sudo ./shrinkpdf.sh sample-pdf.pdf output.pdf 150`
 
 
 More Detials :
