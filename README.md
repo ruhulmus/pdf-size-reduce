@@ -30,7 +30,6 @@ Or on Debian:
 
 ### Process
 
-
 To reduce your pdf file you need to pass 3 parameters
 
 ./shrinkpdf.sh [inputfile] [outputfile] [resolution_in_dpi]
@@ -73,3 +72,5 @@ $ du -sh *
 ### More Detials :
 
 http://www.alfredklomp.com/programming/shrinkpdf/
+
+https://www.ghostscript.com/
